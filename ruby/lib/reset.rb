@@ -7,7 +7,7 @@ class Reset
     @set = set
   end
 
-  def union
+  def union()
     @set = @set.uniq { |p| p.set_id }
   end
 
